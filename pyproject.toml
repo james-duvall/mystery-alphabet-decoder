@@ -1,0 +1,18 @@
+[project]
+name = "mystery-alphabet-decoder"
+version = "0.1.0"
+description = "Entry for Stack Overflow Challenge #15: Mystery Alphabet Decoder"
+readme = "README.md"
+authors = [
+    { name = "James Duvall", email = "20895143+james-duvall@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+find-order = "mystery_alphabet_decoder:find_order"
+decode = "mystery_alphabet_decoder:decode"
+
+[build-system]
+requires = ["uv_build>=0.9.24,<0.10.0"]
+build-backend = "uv_build"
